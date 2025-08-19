@@ -17,7 +17,7 @@ document.getElementById("search-form").addEventListener("submit", function(event
     pokemonID.textContent = "";
     pokemonType.textContent = "";
     pokemonDescription.textContent = "";
-    pokemonImage.src = "https://www.dokhospitalveterinario.com.br/wp-content/uploads/2023/02/Quais-sao-os-tipos-de-calopsitas.jpg";
+    pokemonImage.src = "";
 
     //Conexão com o php
     fetch(`buscar.php?pokemon_name=${pokemonName}`)
